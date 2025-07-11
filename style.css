@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nos_produits{
+    background-color: #F5F5EF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    
+}
+    
+
+img{
+    width: 100%;
+}
+.nos_produits_text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50vh;
+    
+}
+
+.pains
+{
+    width: 40%;
+}
+
+.panier{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.img_panier{
+    width: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.temoignages{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.temoignages_titre{
+    width: 35%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.temoignages_text{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.temoignage1, .temoignage2, .temoignage3{
+    width: 30%;
+    
+}
+
+.temoignages_text > article > p {
+    margin-top: 20px;
+}
+
+footer{
+
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.table{
+    width: 45%;
+}
+
+div > h3{
+    
+    font-size: 16px;
+}
+
+.text_footer{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+
+
